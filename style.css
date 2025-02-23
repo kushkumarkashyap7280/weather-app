@@ -1,0 +1,109 @@
+*{
+  text-align: center;
+  padding: 0;
+  margin:0;
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+body{
+
+  background-image: linear-gradient( 76.3deg,  rgba(44,62,78,1) 12.6%, rgba(69,103,131,1) 82.8% );
+  color: aliceblue;
+}
+.container{
+  border-radius: 40px;
+  margin: auto;
+  background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  width: 100vw;
+  max-width: 425px;
+}
+.search{
+  padding: 10px;
+}
+.search input{
+  border-radius: 20px;
+  height: 60px;
+  width: 70%;
+  border: none;
+}
+.search input::placeholder{
+  font-size: larger;
+  font-weight: 800;
+}
+.search button{
+  color: aliceblue;
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+.search i{
+  font-size: 20px;
+}
+.output{
+  padding: 10px;
+  display: grid;
+  height: 55vh;
+}
+.output ul{
+  margin: auto;
+  list-style: none;
+  max-width: 420px;
+  width: 80vw;
+  color: black;
+  text-align: left;
+}
+#letcheck{
+  background-color: black;
+  color: aliceblue;
+ margin: auto;
+  max-width: 150px;
+  width:70vw ;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.weathericon{
+  font-size: 15vh;
+}
+.wandh{
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.wandh i{
+  font-size: 40px;
+}
+.k{
+  display: grid;
+}
+.textcolur{
+  color: black;
+}
+.background1{
+  background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+}
+.background2{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(2,37,78,1) 0%, rgba(4,56,126,1) 19.7%, rgba(85,245,221,1) 100.2% );
+}
+.background3{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
+}
+.background4{
+  background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+}
+.background5{
+  background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+}
+.background6{
+  background-image: linear-gradient( 68.6deg,  rgba(79,183,131,1) 14.4%, rgba(254,235,151,1) 92.7% );
+
+}
+.red{
+  color: black;
+}
